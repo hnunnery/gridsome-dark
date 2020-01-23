@@ -1,20 +1,20 @@
   
 <template>
-  <v-app style="background-color: #2a2a2e !important">
-    <v-app-bar app hide-on-scroll elevation="0" class="app transparent">
+  <v-app style="background-color: #2a2a2e !important;">
+    <v-app-bar app absolute elevation="0" class="app transparent">
       <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
         <template v-slot:activator="{ on }">
           <v-btn icon v-on="on" class="hidden-md-and-up mr-0">
             <v-icon class="white--text">fas fa-bars</v-icon>
           </v-btn>
         </template>
-        <v-card>
-          <v-toolbar class="mont">
+        <v-card class="mygrey">
+          <v-toolbar class="mont mygrey">
             <v-toolbar-title class="mont white--text">{{ $static.metadata.siteName }}</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn icon class="white--text" style="font-size: 1.7em;" @click="dialog = false">X</v-btn>
           </v-toolbar>
-          <v-container fluid ma-0 pa-0 style="min-height: 100vh;">
+          <v-container fluid ma-0 pt-6 style="min-height: 100vh;">
             <v-row justify="center" py-6>
               <v-col cols="6" class="text-center">
                 <g-link to="/">
