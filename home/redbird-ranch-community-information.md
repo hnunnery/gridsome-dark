@@ -1,5 +1,5 @@
 ---
-title: Tech Today
+title: Gridsome
 featuredImage: /uploads/earth.png
 paraOne: >-
   Welcome to Stillwater Ranch! We are so excited that you have chosen our
