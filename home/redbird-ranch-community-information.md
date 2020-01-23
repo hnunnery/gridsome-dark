@@ -9,9 +9,7 @@ paraOne: >-
   intimate gatherings, we enjoy creating opportunities for you to connect with
   friends old and new.
 paraTwo: >-
-  We invite you to explore the website to get further acquainted with the
-  community. For residents, we have provided a password protected area that will
-  provide additional information and resources. This portion of the website
-  includes downloadable association documents, event registrations, and more.
+  This portion of the website includes downloadable association documents, event
+  registrations, and more.
 ---
 
