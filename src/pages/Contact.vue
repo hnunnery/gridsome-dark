@@ -9,7 +9,7 @@
             <v-col cols="12" sm="10" md="6">
               <v-hover>
                 <v-card
-                  class="my-4 mygrey"
+                  class="mb-4 mygrey"
                   slot-scope="{ hover }"
                   :class="`elevation-${hover ? 12 : 1}`"
                 >
@@ -73,7 +73,7 @@
               </v-hover>
             </v-col>
             <v-col cols="12" md="6" lg="5">
-              <div class="my-12">
+              <div class="my-8">
                 <div class="text-left">
                   <a href="mailto:contact@vowaidfoundation.org">
                     <v-row justify="center" class="pb-6">
