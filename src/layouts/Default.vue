@@ -92,8 +92,8 @@
 
     <v-footer app absolute color="#1C1C1C" class="page-footer">
       <v-row justify="space-around">
-        <v-col cols="auto" class="text-center">
-          <p class="white--text body-2">
+        <v-col cols="auto" class="text-center footer-text">
+          <p class="white--text">
             Created by
             <a href="https://www.codehunter.io" target="_blank">
               <span class="b-align">code</span>
@@ -165,7 +165,7 @@ export default {
 // FOOTER - bottom aligns text in codeHunter
 .b-align {
   vertical-align: bottom;
-  line-height: 20px;
+  line-height: 15px;
   color: #22aa00;
   font-size: 0.85em;
   margin-right: 0.5px;
@@ -175,6 +175,9 @@ export default {
   p {
     margin: 0px auto;
   }
+}
+.footer-text {
+  font-size: 0.8em;
 }
 </style>
 

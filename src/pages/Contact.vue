@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <v-container fluid px-0>
+    <v-container fluid px-0 pt-0>
       <v-row justify="space-around" mt-12>
         <v-col cols="12" lg="10" xl="8">
           <h1 class="mont white--text text-center" style="font-size: 4vmax;">Contact Us</h1>

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <v-container>
+    <v-container pt-0>
       <v-row justify="center">
         <v-col cols="12" md="10" px-4>
           <h1 class="mont white--text text-center" style="font-size: 4vmax;">About us</h1>

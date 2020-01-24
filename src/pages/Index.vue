@@ -21,7 +21,7 @@
             style="line-height: 1.75em;"
           >{{ section.node.paraOne }}</p>
           <p
-            class="subtitle-1 white--text mt-6"
+            class="subtitle-1 white--text mt-6 mb-12"
             style="line-height: 1.75em;"
           >{{ section.node.paraTwo }}</p>
         </v-col>
@@ -79,7 +79,7 @@ export default {
     padding-right: 5px !important;
   }
   .mobile-top {
-    padding: 20px 0 0 !important;
+    padding: 10px 0 0 !important;
   }
 }
 .description {

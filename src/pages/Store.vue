@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <v-container fluid>
+    <v-container fluid pt-0>
       <v-row justify="center">
         <v-col
           cols="12"
