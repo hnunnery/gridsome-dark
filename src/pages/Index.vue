@@ -14,7 +14,7 @@
         <v-col cols="12" md="10" lg="5" px-4 mb-12>
           <h1
             class="mont white--text text-center mt-6"
-            style="font-size: 4.5em;"
+            style="font-size: 4em;"
           >{{ section.node.title }}</h1>
           <p
             class="subtitle-1 white--text mt-6"
