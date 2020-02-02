@@ -8,8 +8,6 @@ paraOne: >-
   lifestyle events, and programs throughout the year. From seasonal festivals to
   intimate gatherings, we enjoy creating opportunities for you to connect with
   friends old and new.
-paraTwo: >-
-  This portion of the website includes downloadable association documents, event
-  registrations, and more.
+paraTwo: ''
 ---
 
