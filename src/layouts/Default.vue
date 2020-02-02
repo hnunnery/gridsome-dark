@@ -62,24 +62,19 @@
           </v-col>
           <!-- NAVBAR FOR bold AND UP SCREEN SIZES -->
           <v-toolbar-items class="hidden-sm-and-down">
-            <v-btn text to="/">
-              <span class="nav-text white--text py-2">Home</span>
-            </v-btn>
-            <v-btn text to="/store">
-              <span class="nav-text white--text py-2">Store</span>
-            </v-btn>
-            <v-btn text to="/about">
-              <span class="nav-text white--text py-2">About</span>
-            </v-btn>
-            <v-btn text to="/blog">
-              <span class="nav-text white--text py-2">Blog</span>
-            </v-btn>
-            <v-btn text to="/contact">
-              <span class="nav-text white--text py-2">Contact</span>
-            </v-btn>
+            <v-btn text to="/" class="nav-text py-2 white--text">Home</v-btn>
+            <v-btn text to="/store" class="nav-text py-2 white--text">Store</v-btn>
+            <v-btn text to="/about" class="nav-text py-2 white--text">About</v-btn>
+            <v-btn text to="/blog" class="nav-text py-2 white--text">Blog</v-btn>
+            <v-btn text to="/contact" class="nav-text py-2 white--text">Contact</v-btn>
           </v-toolbar-items>
-          <v-btn icon class="snipcart-checkout">
-            <v-icon color="highlight">fas fa-shopping-cart</v-icon>
+          <!-- shopping cart icon on non-mobile devices -->
+          <v-btn fab dark color="highlight" class="snipcart-checkout hidden-sm-and-down">
+            <v-icon dark>fas fa-shopping-cart</v-icon>
+          </v-btn>
+          <!-- shopping cart icon on mobile devices -->
+          <v-btn icon class="snipcart-checkout hidden-md-and-up">
+            <v-icon class="highlight--text">fas fa-shopping-cart</v-icon>
           </v-btn>
         </v-row>
       </v-container>
@@ -147,7 +142,8 @@ export default {
   font-size: 1.5em;
 }
 .nav-text {
-  font-size: 1.6em;
+  font-size: 1.7em;
+  font-weight: 400;
   font-family: "Montserrat", sans-serif !important;
   text-transform: capitalize;
   margin: 0 10px;
@@ -239,13 +235,5 @@ a {
 .snipcart__box--badge {
   background-color: #4a9df8 !important;
   color: #f9f9fa !important;
-}
-</style>
-
-<style lang="scss" scoped>
-.v-btn:hover {
-  .nav-text {
-    color: #4a9df8 !important;
-  }
 }
 </style>

@@ -2,7 +2,7 @@
   <Layout>
     <v-container fluid pt-6 class="mobile-top">
       <v-row justify="center" align="center" v-for="section in sections" :key="section.node.id">
-        <v-col cols="12" md="10" lg="4" px-4 mt-6>
+        <v-col cols="12" md="10" lg="5" px-4 mt-6>
           <v-img
             :src="section.node.featuredImage"
             max-height="500"
@@ -11,19 +11,30 @@
             contain
           ></v-img>
         </v-col>
-        <v-col cols="12" md="10" lg="5" px-4 mb-12>
+        <v-col cols="12" md="10" lg="4" px-4 mb-12>
           <h1
             class="mont white--text text-center mt-6"
-            style="font-size: 4em;"
+            style="font-size: 4em; font-weight: 400;"
           >{{ section.node.title }}</h1>
           <p
             class="subtitle-1 white--text mt-6"
             style="line-height: 1.75em;"
           >{{ section.node.paraOne }}</p>
           <p
-            class="subtitle-1 white--text mt-6 mb-12"
+            class="subtitle-1 white--text mt-6"
             style="line-height: 1.75em;"
           >{{ section.node.paraTwo }}</p>
+          <v-row class="text-center">
+            <v-col>
+              <v-btn
+                x-large
+                rounded
+                clearable
+                type="submit"
+                class="highlight white--text px-8 mb-12"
+              >See the store</v-btn>
+            </v-col>
+          </v-row>
         </v-col>
       </v-row>
     </v-container>

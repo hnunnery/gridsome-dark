@@ -3,7 +3,10 @@
     <v-container fluid px-0 pt-0>
       <v-row justify="space-around" mt-12>
         <v-col cols="12" lg="10" xl="8">
-          <h1 class="mont white--text text-center" style="font-size: 4vmax;">Contact Us</h1>
+          <h1
+            class="mont white--text text-center"
+            style="font-size: 4vmax; font-weight: 400;"
+          >Contact Us</h1>
           <v-divider class="mt-2 mb-6"></v-divider>
           <v-row justify="space-around">
             <v-col cols="12" sm="10" md="6">

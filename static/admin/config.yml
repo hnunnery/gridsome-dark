@@ -32,7 +32,12 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
       - { label: "Paragraph1", name: "paraOne", widget: "string" }
-      - { label: "Paragraph2", name: "paraTwo", widget: "string" }
+      - {
+          label: "Paragraph2",
+          name: "paraTwo",
+          widget: "string",
+          required: "false",
+        }
   - name: "products"
     label: "Products"
     folder: "products"

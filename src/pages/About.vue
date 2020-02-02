@@ -3,7 +3,10 @@
     <v-container pt-0>
       <v-row justify="center">
         <v-col cols="12" md="10" px-4>
-          <h1 class="mont white--text text-center" style="font-size: 4vmax;">About us</h1>
+          <h1
+            class="mont white--text text-center"
+            style="font-size: 4vmax; font-weight: 400;"
+          >About us</h1>
           <v-divider class="mt-2 mb-6"></v-divider>
           <p
             class="subtitle-1 white--text"
