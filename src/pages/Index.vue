@@ -27,6 +27,7 @@
           <v-row class="text-center">
             <v-col>
               <v-btn
+                to="/store"
                 x-large
                 rounded
                 clearable
