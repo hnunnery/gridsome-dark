@@ -165,7 +165,7 @@ export default {
 // FOOTER - bottom aligns text in codeHunter
 .b-align {
   vertical-align: bottom;
-  line-height: 15px;
+  line-height: 16px;
   color: #22aa00;
   font-size: 0.85em;
   margin-right: 0.5px;
