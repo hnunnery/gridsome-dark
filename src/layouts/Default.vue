@@ -73,11 +73,11 @@
             <v-icon dark>fas fa-shopping-cart</v-icon>
           </v-btn>
           <!-- shopping cart icon on mobile devices -->
-          <v-btn icon class="snipcart-checkout hidden-md-and-up">
-            <v-icon class="highlight--text">fas fa-shopping-cart</v-icon>
-          </v-btn>
         </v-row>
       </v-container>
+      <v-btn icon class="snipcart-checkout hidden-md-and-up">
+        <v-icon class="highlight--text">fas fa-shopping-cart</v-icon>
+      </v-btn>
     </v-app-bar>
 
     <!-- Sizes your content based upon application components -->
@@ -198,6 +198,15 @@ a {
 }
 .mont {
   font-family: "Montserrat", sans-serif;
+}
+.v-btn {
+  transition: all 0.2s ease-in-out;
+}
+.v-btn:hover {
+  transform: scale(1.1);
+}
+.v-card {
+  border-radius: 15px !important;
 }
 
 /* SNIPCART CUSTOM STYLES */

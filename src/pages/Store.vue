@@ -102,13 +102,4 @@ export default {
     height: 100px;
   }
 }
-.v-card {
-  border-radius: 15px !important;
-}
-.v-btn {
-  transition: all 0.2s ease-in-out;
-}
-.v-btn:hover {
-  transform: scale(1.1);
-}
 </style>
