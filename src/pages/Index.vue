@@ -40,7 +40,7 @@
         </v-col>
       </v-row>
     </v-container>
-    <v-container fluid highlight py-10>
+    <v-container fluid highlight py-10 class="hero-background-circuit">
       <v-row justify="center">
         <v-col cols="12">
           <div style="padding: 60px 0px;">
