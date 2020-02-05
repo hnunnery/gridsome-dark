@@ -62,11 +62,40 @@
           </v-col>
           <!-- NAVBAR FOR bold AND UP SCREEN SIZES -->
           <v-toolbar-items class="hidden-sm-and-down">
-            <v-btn text to="/" class="nav-text py-2 white--text">Home</v-btn>
-            <v-btn text to="/store" class="nav-text py-2 white--text">Store</v-btn>
-            <v-btn text to="/about" class="nav-text py-2 white--text">About</v-btn>
-            <v-btn text to="/blog" class="nav-text py-2 white--text">Blog</v-btn>
-            <v-btn text to="/contact" class="nav-text py-2 white--text">Contact</v-btn>
+            <v-btn
+              text
+              rounded
+              to="/"
+              class="nav-text py-2 white--text"
+              active-class="highlight"
+            >Home</v-btn>
+            <v-btn
+              text
+              rounded
+              to="/store"
+              class="nav-text py-2 white--text"
+              active-class="highlight"
+            >Store</v-btn>
+            <v-btn
+              text
+              rounded
+              to="/about"
+              class="nav-text py-2 white--text"
+              active-class="highlight"
+            >About</v-btn>
+            <v-btn
+              text
+              rounded
+              to="/blog"
+              class="nav-text py-2 white--text"
+              active-class="highlight"
+            >Blog</v-btn>
+            <v-btn
+              text
+              to="/contact"
+              class="nav-text py-2 white--text"
+              active-class="highlight"
+            >Contact</v-btn>
           </v-toolbar-items>
           <!-- shopping cart icon on non-mobile devices -->
           <v-btn fab dark color="highlight" class="snipcart-checkout hidden-sm-and-down">

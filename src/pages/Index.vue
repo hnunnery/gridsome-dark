@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <v-container fluid pt-6 class="mobile-top">
+    <v-container fluid pt-6 mb-12 class="mobile-top">
       <v-row justify="center" align="center" v-for="section in sections" :key="section.node.id">
         <v-col cols="12" md="10" lg="5" px-4 mt-6>
           <v-img
@@ -18,11 +18,11 @@
           >{{ section.node.title }}</h1>
           <p
             class="subtitle-1 white--text mt-6"
-            style="line-height: 1.75em;"
+            style="line-height: 2em;"
           >{{ section.node.paraOne }}</p>
           <p
             class="subtitle-1 white--text mt-6"
-            style="line-height: 1.75em;"
+            style="line-height: 2em;"
           >{{ section.node.paraTwo }}</p>
           <v-row class="text-center">
             <v-col>
@@ -32,10 +32,23 @@
                 rounded
                 clearable
                 type="submit"
-                class="highlight white--text px-8 mb-12"
+                class="highlight white--text mont headline px-8 mb-12"
+                style="text-transform: none"
               >See the store</v-btn>
             </v-col>
           </v-row>
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-container fluid highlight py-10>
+      <v-row justify="center">
+        <v-col cols="12">
+          <div style="padding: 60px 0px;">
+            <h2
+              class="text-center display-3 mont"
+              style="line-height: 80px"
+            >Gridsome is just what you need!</h2>
+          </div>
         </v-col>
       </v-row>
     </v-container>
